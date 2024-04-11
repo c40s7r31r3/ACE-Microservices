@@ -7,7 +7,7 @@ Microservicios con docker, php, mysql
  sudo yum install -y docker 
  
  #instalamos docker-compose
- sudo install docker-compose (version XX ver.'3.9')
+ sudo o	sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose  (version XX ver.'3.9')
 
  Crear un topic SNS y suscribrse, y colocar el ARN en el archivo submit.php
 
